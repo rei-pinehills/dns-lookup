@@ -1,6 +1,6 @@
 function lookup() {
     const domain = document.getElementById("domain").value;
-    const url = `https;//dns.google/resolve?name=${domain}&type=A`;
+    const url = `https://dns.google/resolve?name=${domain}&type=A`;
 
     fetch(url)
         .then(response => response.json())
